@@ -1,0 +1,56 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão para o texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamento interno */
+    display: flex; /* Utiliza o sistema de layout flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define que a altura seja 100% da tela */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    background-color: #ffffff; /* Fundo branco para o contêiner */
+    padding: 20px; /* Espaçamento interno do contêiner */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor do contêiner */
+}
+
+/* Estilo para o título da página */
+h1 {
+    color: #4CAF50; /* Cor verde para o título */
+}
+
+/* Estilo para o campo de entrada de texto */
+input {
+    padding: 10px; /* Espaçamento interno no campo de texto */
+    width: 60%; /* Largura do campo em relação ao contêiner */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para "mãozinha" ao passar sobre o botão */
+}
+
+/* Efeito de hover ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #45a049; /* Cor ligeiramente diferente ao passar o mouse */
+}
+
+/* Estilo para a área onde as gírias serão exibidas */
+#resultado {
+    margin-top: 20px; /* Espaçamento superior */
+    font-size: 18px; /* Tamanho da fonte para o texto */
+    color: #333; /* Cor do texto cinza escuro */
+}

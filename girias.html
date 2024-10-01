@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Define o conjunto de caracteres e a visualização do site -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de Gírias</title>
+    <!-- Link para o arquivo CSS externo para o estilo da página -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Container principal da página -->
+    <div class="container">
+        <!-- Título da aplicação -->
+        <h1>Digite uma Gíria</h1>
+        <!-- Campo de entrada de texto para inserir uma gíria -->
+        <input type="text" id="giriasInput" placeholder="Insira uma gíria aqui">
+        <!-- Botão que chama a função JavaScript ao ser clicado -->
+        <button onclick="adicionarGiria()">Adicionar Gíria</button>
+        <!-- Área onde os resultados (gírias) adicionadas serão exibidas -->
+        <div id="resultado"></div>
+    </div>
+    <!-- Link para o arquivo JavaScript externo com a lógica da aplicação -->
+    <script src="app.js"></script>
+</body>
+</html>
